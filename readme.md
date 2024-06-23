@@ -1,19 +1,15 @@
-User Management Backend
+Register
+Method: POST
+Endpoint: /register
+Payload:
+{ "name": "user_name", "email": "user_email", "password": "user_password" }
+Response:
+{"msg":"User Registered Successfully"}
 
-API Endpoints
-
-Register a new user
-
-**POST-** `/api/users/register`
-
-**Request Body:**
-```json
-{
-    "username": "exampleUser",
-    "password": "examplePass",
-    "email": "user@example.com"
-}
-
-
-
-
+LOGIN
+Method: POST
+Endpoint: /login
+payload
+{ "email": "user_email", "password": "user_password" }
+Response:
+{"msg":"User Login Successfully"}
